@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.container > div{
+    height: 200px;
+    width: 350px;
+}
+
+.div-1{
+    background-image: url(./images/aventador.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-2{
+    background-image: url(./images/488-pista.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-3{
+    background-image: url(./images/e-tron-gt.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-4{
+    background-image: url(./images/911.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-5{
+    background-image: url(./images/roma.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-6{
+    background-image: url(./images/db11.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-7{
+    background-image: url(./images/huracan.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-8{
+    background-image: url(./images/p1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div-9{
+    background-image: url(./images/amg-gt.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
